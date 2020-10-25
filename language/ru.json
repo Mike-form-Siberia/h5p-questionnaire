@@ -1,22 +1,22 @@
 {
   "semantics": [
     {
-      "label": "Questionnaire elements",
+      "label": "Элементы опроса",
       "widgets": [
         {
-          "label": "Default"
+          "label": "По умолчанию"
         }
       ],
       "entity": "element",
       "field": {
-        "label": "Choose library",
+        "label": "Выберите библиотеку",
         "fields": [
           {
             "label": "Library",
             "description": "Choose a library"
           },
           {
-            "label": "Required field"
+            "label": "Обязательное поле"
           }
         ]
       }
@@ -28,16 +28,16 @@
           "label": "Enable success screen"
         },
         {
-          "label": "Add success screen image",
+          "label": "Добавить изображение на экран успеха",
           "fields": [
             {
-              "label": "Replace success icon with image"
+              "label": "Заменить иконку Успех изображением"
             }
           ]
         },
         {
           "label": "Text to display on submit",
-          "default": "You have completed the questionnaire."
+          "default": "Вы завершили опрос."
         }
       ]
     },
@@ -45,43 +45,43 @@
       "label": "UI Elements",
       "fields": [
         {
-          "label": "Button labels",
+          "label": "Подписи на кнопках",
           "fields": [
             {
-              "label": "Previous button label",
-              "default": "Back"
+              "label": "Подпись на кнопке Назад",
+              "default": "Назад"
             },
             {
-              "label": "Continue button label",
-              "default": "Continue"
+              "label": "Подпись на кнопке Продолжить",
+              "default": "Продолжить"
             },
             {
-              "label": "Next button label",
-              "default": "Next"
+              "label": "Подпись на кнопке Далее",
+              "default": "Далее"
             },
             {
-              "label": "Submit button label",
-              "default": "Submit"
+              "label": "Подпись на кнопке отправки",
+              "default": "Отправить"
             }
           ]
         },
         {
-          "label": "Accessibility",
+          "label": "Доступность",
           "fields": [
             {
               "label": "Required message exit button label",
               "default": "Close error message"
             },
             {
-              "label": "Progress bar text",
+              "label": "Текст шкалы прогресса",
               "default": "Question %current of %max",
               "description": "Used to tell assistive technologies what question it is. Variables: [ %current, %max ]"
             }
           ]
         },
         {
-          "label": "Required message",
-          "default": "This question requires an answer",
+          "label": "Необходимое сообщение",
+          "default": "На этот вопрос требуется ответ",
           "description": "Will display if this field is unanswered and required by a wrapper content type"
         },
         {
@@ -91,11 +91,11 @@
         },
         {
           "label": "Title for the submit screen",
-          "default": "You successfully answered all of the questions"
+          "default": "Вы успешно ответили на все вопросы"
         },
         {
           "label": "Subtitle for the submit screen",
-          "default": "Click below to submit your answers"
+          "default": "Нажмите внизу, чтобы отправить ответы"
         }
       ]
     }
